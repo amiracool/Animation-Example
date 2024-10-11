@@ -1,0 +1,56 @@
+@keyframes animation1 {
+    from{
+        background-color:blueviolet;
+    color: aqua;
+    }
+    to{
+        background-color:brown;
+        color: chartreuse;
+    }
+}
+.exampleOne{
+    animation-name: animation1; 
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation2{
+    0%{
+        background-color: brown;
+    }
+    30%{
+        background-color: blueviolet;
+}
+50%{
+    background-color: yellow;
+}
+}
+
+.exampleTwo{
+    animation-name: animation2;
+    animation-duration: 20s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes animation3 {
+from{
+    left;120px
+}
+to{
+    left: 50%;}
+   
+}
+.example3{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50px;
+    position: absolute;
+
+    animation-name: animation3; animation2
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear
+}
